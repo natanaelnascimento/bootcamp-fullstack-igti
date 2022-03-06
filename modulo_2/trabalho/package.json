@@ -1,0 +1,12 @@
+{
+  "name": "trabalho",
+  "version": "1.0.0",
+  "description": "Trabalho pratico do modulo 2 Fullstack",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Natanael Nascimento",
+  "license": "ISC"
+}

@@ -1,0 +1,76 @@
+{
+    "inss": {
+        "maxDiscount": 713.10,
+        "aliquotas": [
+            {
+                "salaryInterval": {
+                    "to": 1045.00
+                },
+                "percentage": 0.075
+            },
+            {
+                "salaryInterval": {
+                    "from": 1045.01,
+                    "to": 2089.60
+                },
+                "percentage": 0.09
+            },
+            {
+                "salaryInterval": {
+                    "from": 2089.61,
+                    "to": 3134.40
+                },
+                "percentage": 0.12
+            },
+            {
+                "salaryInterval": {
+                    "from": 3134.41,
+                    "to": 6101.06
+                },
+                "percentage": 0.14
+            }
+        ]
+    },
+    "irpf": {
+        "aliquotas": [
+            {
+                "salaryInterval": {
+                    "to": 1903.98
+                },
+                "percentage": 0,
+                "deduction": 0
+            },
+            {
+                "salaryInterval": {
+                    "from": 1903.99,
+                    "to": 2826.65
+                },
+                "percentage": 0.075,
+                "deduction": 142.80
+            },
+            {
+                "salaryInterval": {
+                    "from": 2826.66,
+                    "to": 3751.05
+                },
+                "percentage": 0.15,
+                "deduction": 354.80
+            },
+            {
+                "salaryInterval": {
+                    "from": 3751.06,
+                    "to": 4664.68
+                },
+                "percentage": 0.225,
+                "deduction": 636.13
+            },
+            {
+                "salaryInterval": {
+                    "from": 4664.69
+                },
+                "percentage": 0.275,
+                "deduction": 869.36
+            }
+        ]
+    }
+}

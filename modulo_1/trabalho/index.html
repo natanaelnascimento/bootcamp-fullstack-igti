@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Seletor de cores</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <form>
+        <div id="container">
+            <div class="rangeLine">
+                <span class="label">(R) Vermelho:</span>
+                <input class="range" id="rangeR" type="range" min="0" max="255">
+                <input class="text" id="textR" type="text" size="5" maxlength="3" disabled>
+            </div>
+            <div class="rangeLine">
+                <span class="label">(G) Verde:</span>
+                <input class="range" id="rangeG" type="range" min="0" max="255">
+                <input class="text" id="textG" type="text" size="5" maxlength="3" disabled>
+            </div>
+            <div class="rangeLine">
+                <span class="label">(B) Azul:</span>
+                <input class="range" id="rangeB" type="range" min="0" max="255">
+                <input class="text" id="textB" type="text" size="5" maxlength="3" disabled>
+            </div>
+            <div id="colorPanel"></div>
+        </div>
+    </form>
+    <script src="app.js"></script>
+</body>
+</html>

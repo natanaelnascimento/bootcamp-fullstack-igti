@@ -1,0 +1,35 @@
+.title {
+    margin-bottom: 50px;
+}
+
+.search-bar {
+    display: flex;
+    flex-direction: row;
+    margin-top: 50px;
+    margin-bottom: 40px;
+}
+
+#search_text {
+    margin-right: 10px;
+}
+
+.result-panel {
+    margin-top: 150px;
+}
+
+.stats-value {
+    font-weight: bold;
+}
+
+.panel {
+    border: solid 1px #ddd;
+    border-radius: 3px;
+}
+
+.user-picture {
+    height: 45px;
+    width: 45px;
+    border-radius: 50%;
+    vertical-align: middle;
+    margin-right: 10px;
+}

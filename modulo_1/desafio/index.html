@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pesquisa de usuários</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="row">
+            <form id="form" class="col s12">
+                <h1 class="center title">Pesquisa de usuários</h1>
+                <div id="load"></div>
+                <div class="input-field row search-bar">
+                    <input id="search_text" type="text" disabled>
+                    <label for="search_text">BUSCA</label>
+                    <a id="search_button" class="waves-effect waves-light btn" disabled>BUSCAR</a>
+                </div>
+                <div clas="row result-panel">
+                    <div class="col s6 panel">
+                        <h4 id="found_text"></h4>
+                        <div id="found_panel"></div>
+                    </div>
+                    <div class="col s6 panel">
+                        <h4 id="stats_text"></h4>
+                        <div id="stats_panel"></div>
+                    </div>
+                </div>
+            </form>
+        </div>
+    </div>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+    <script src="app.js"></script>
+</body>
+</html>
